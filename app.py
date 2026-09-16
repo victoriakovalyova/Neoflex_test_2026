@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from inference import classify
+from inference_only import classify
 
 app = FastAPI()
 
